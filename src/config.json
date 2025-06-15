@@ -1,0 +1,20 @@
+{
+  "features": {
+    "enableComments": true,
+    "enableProfile": true
+  },
+  "routes": [
+    {
+      "path": "/auth",
+      "remoteEntry": "http://localhost:3001/assets/remoteEntry.js",
+      "module": "authApp",
+      "component": "Auth"
+    },
+    {
+      "path": "/blogs",
+      "remoteEntry": "http://localhost:3002/assets/remoteEntry.js",
+      "module": "blogApp",
+      "component": "Blog"
+    }
+  ]
+}
